@@ -31,26 +31,26 @@ public class Exercise2 {
 		public static String[] insertArray(String[] elementsArray, String word) {
 			String[] newArray = new String [6];
 			
-			/*
+		
 			for (int i = 0; i < newArray.length; i++) {
-				if(i==2) {
+				if(i<2) {
+					newArray[i] = elementsArray[i];
+				} else if (i==2) {
 					newArray[i] = word;
 				} else {
-					newArray[i] = elementsArray[i];
+					newArray[i] = elementsArray[i-1];
 				}
 				
-						
 			}
-			*/
 			
-			 newArray[0] = elementsArray[0];
-			 newArray[1] = elementsArray[1];
-			  
-			 newArray[2] = word;
-			
-			 newArray[3] = elementsArray[2];
-			 newArray[4] = elementsArray[3];
-			 newArray[5] = elementsArray[4];
+//			 newArray[0] = elementsArray[0];
+//			 newArray[1] = elementsArray[1];
+//			  
+//			 newArray[2] = word;
+//			
+//			 newArray[3] = elementsArray[2];
+//			 newArray[4] = elementsArray[3];
+//			 newArray[5] = elementsArray[4];
 
 			return newArray;
 		}
