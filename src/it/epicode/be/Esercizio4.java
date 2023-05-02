@@ -19,11 +19,10 @@ public class Esercizio4 {
 	}
 	
 	public static int pariDispari(int n) {
-		if (n%2==0) {
-			return 0;
-		} else {
-			return 1;
-		}
+
+		
+		 int result = (n%2==0) ? 0 : 1;
+		 return result;
 		
 	}
 	
